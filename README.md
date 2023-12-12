@@ -29,5 +29,4 @@ If you find our work is helpful for your research, please consider to cite:
   year={2023},
   publisher={Nature Publishing Group UK London}
 }
-}
 ```

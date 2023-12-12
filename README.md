@@ -12,3 +12,20 @@ Additional data sets supporting the findings of this study were not publicly ava
 ![Alt Text](Demo/UIOS_gif.gif)
 
 Standard artiﬁcial intelligence (AI) and our proposed UIOS AI models were trained with the same dataset with 9 categories of retinal photos. In testing, standard AI model assigns a probability value ($p_{i}$) to each of the 9 categories, and the one with the highest probability is output as the diagnosis. Even when the model is tested with a retinal image with disease outside the training set, the model still outputs one from the 9 categories, which may lead to misdiagnosis. In contrast, UIOS outputs an uncertainty score ($u$) besides the probability ($p_{i}$) for the 9 categories. When the model is fed with an image with obvious features of retinal disease in the 9 categories, the uncertainty-based classiﬁer will output a prediction result with a low uncertainty score below the threshold $θ$ to indicate that the diagnosis result is reliable. Conversely, when the input data contains ambiguous features or is an anomaly outside of training categories, the model will assign a high uncertainty score above threshold $θ$ to explicitly indicate that the prediction result is unreliable and requires a double-check from their ophthalmologist to avoid misdiagnosis.
+
+# Original paper.
+[UIOS](https://www.nature.com/articles/s41467-023-42444-7)
+
+# Please cite our paper if it helps you.
+"
+@article{wang2023uncertainty,
+  title={Uncertainty-inspired open set learning for retinal anomaly identification},
+  author={Wang, Meng and Lin, Tian and Wang, Lianyu and Lin, Aidi and Zou, Ke and Xu, Xinxing and Zhou, Yi and Peng, Yuanyuan and Meng, Qingquan and Qian, Yiming and others},
+  journal={Nature Communications},
+  volume={14},
+  number={1},
+  pages={6757},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+"

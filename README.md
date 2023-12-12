@@ -16,8 +16,9 @@ Standard artiﬁcial intelligence (AI) and our proposed UIOS AI models were trai
 # Original paper.
 [UIOS](https://www.nature.com/articles/s41467-023-42444-7)
 
-# Please cite our paper if it helps you.
-"
+# Citation
+If you find our work is helpful for your research, please consider to cite:  
+```
 @article{wang2023uncertainty,
   title={Uncertainty-inspired open set learning for retinal anomaly identification},
   author={Wang, Meng and Lin, Tian and Wang, Lianyu and Lin, Aidi and Zou, Ke and Xu, Xinxing and Zhou, Yi and Peng, Yuanyuan and Meng, Qingquan and Qian, Yiming and others},
@@ -28,4 +29,5 @@ Standard artiﬁcial intelligence (AI) and our proposed UIOS AI models were trai
   year={2023},
   publisher={Nature Publishing Group UK London}
 }
-"
+}
+```
